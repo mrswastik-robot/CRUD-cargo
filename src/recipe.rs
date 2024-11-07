@@ -4,8 +4,8 @@ use serde::{Deserialize, Serialize};
 pub struct Recipe {
     pub id: u32,
     pub name: String,
-    pub ingredients: Vec<string>,
-    pub instructions: Vec<string>,
+    pub ingredients: Vec<String>,
+    pub instructions: Vec<String>,
     pub servings: u32,
 }
 
@@ -15,7 +15,7 @@ impl Recipe {
         name: String,
         ingredients: Vec<String>,
         instructions: Vec<String>,
-        server: u32,
+        servings: u32,
     ) -> Self {
         Recipe {
             id,

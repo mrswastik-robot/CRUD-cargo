@@ -1,3 +1,5 @@
-fn main() {
-    println!("Hello, world!");
-}
+mod manager;
+mod recipe;
+mod ui;
+
+fn main() -> iced::Result {}
